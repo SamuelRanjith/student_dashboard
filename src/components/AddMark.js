@@ -4,7 +4,7 @@ import Form from "./Form";
 import { API } from "../api/api";
 
 const AddMark = () => {
-  const [studentDetails, setStudentDetails] = useState({
+  const [studentDetails] = useState({
     name: "",
     email: "",
     image: "",
